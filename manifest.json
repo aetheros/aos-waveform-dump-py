@@ -1,0 +1,22 @@
+{
+	"name": "aos_waveform_app_py",
+	"version": "1.0",
+        "summary": "AOS Waveform App (Python)",
+        "description": "The Waveform App provides access to a stream of GEISA formatted voltage and current waveforms, if supported by the electric meter, to service other edge apps such as load disaggregation and near-instantaneous frequency excursion detection.",
+	"exe-name": "aos_waveform_app.py",
+        "m2m": {
+		"app-name": "waveform-py-smpl",
+		"app-id": "Ra1.com.aetheros.aos-waveform-py-mgmt",
+		"ae-rn": "waveform-py-smpl"
+	},
+
+	"files": [
+		"aos_waveform_app.py",
+		"waveform_config.json"
+	],
+	"permissions": {
+		"max_cpu": 20,
+		"max_memory_mb": 50,
+		"groups": [ "waveform_provider" ]
+	}
+}

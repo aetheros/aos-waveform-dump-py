@@ -1,0 +1,14 @@
+*.o
+*.d
+*.swp
+*.swo
+*.swn
+config.mk
+app_config.json
+*.aos
+*.pem
+*.pyc
+credential-id
+*.tbz2
+*.tgz
+aos_waveform_app_py-*.aos
