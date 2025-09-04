@@ -1,18 +1,17 @@
 {
-	"name": "aos_waveform_app_py",
-	"version": "1.0",
-        "summary": "AOS Waveform App (Python)",
-        "description": "The Waveform App provides access to a stream of GEISA formatted voltage and current waveforms, if supported by the electric meter, to service other edge apps such as load disaggregation and near-instantaneous frequency excursion detection.",
-	"exe-name": "aos_waveform_app.py",
-        "m2m": {
-		"app-name": "waveform-py-smpl",
-		"app-id": "Ra1.com.aetheros.aos-waveform-py-mgmt",
-		"ae-rn": "waveform-py-smpl"
+	"name": "aos_waveform_dump",
+	"version": "1.1",
+	"summary": "AOS waveform Dump (Python)",
+	"description": "The AOS waveform Dump app provides access to a stream of GEISA-formatted voltage and current waveforms, and dumps to a csv file for simple demo purposes.",
+	"exe-name": "aos_waveform_dump.py",
+	"m2m": {
+		"app-name": "waveform-dump-py-smpl",
+		"app-id": "Ra1.com.aetheros.aos-waveform-dump-py-mgmt",
+		"ae-rn": "waveform-dump-py-smpl"
 	},
 
 	"files": [
-		"aos_waveform_app.py",
-		"waveform_config.json"
+		"aos_waveform_dump.py"
 	],
 	"permissions": {
 		"max_cpu": 20,

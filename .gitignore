@@ -11,4 +11,4 @@ app_config.json
 credential-id
 *.tbz2
 *.tgz
-aos_waveform_app_py-*.aos
+aos_waveform_dump-*.aos
