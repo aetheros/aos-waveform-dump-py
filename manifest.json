@@ -1,8 +1,8 @@
 {
 	"name": "aos_waveform_dump",
-	"version": "1.1",
+	"version": "1.2",
 	"summary": "AOS waveform Dump (Python)",
-	"description": "The AOS waveform Dump app provides access to a stream of GEISA-formatted voltage and current waveforms, and dumps to a csv file for simple demo purposes.",
+	"description": "Captures GEISA waveform frames through the public AOS SDK, writes scaled channel data to CSV, and verifies metadata, sequence continuity, RMS voltage, and real power.",
 	"exe-name": "aos_waveform_dump.py",
 	"m2m": {
 		"app-name": "waveform-dump-py-smpl",
@@ -11,7 +11,8 @@
 	},
 
 	"files": [
-		"aos_waveform_dump.py"
+		"aos_waveform_dump.py",
+		"waveform_dump_config.json"
 	],
 	"permissions": {
 		"max_cpu": 20,

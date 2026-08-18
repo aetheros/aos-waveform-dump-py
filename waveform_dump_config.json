@@ -1,0 +1,18 @@
+{
+  "frames": 16,
+  "metadata-timeout-seconds": 30,
+  "channels": ["Va", "Ia", "Ic"],
+  "output-csv": "/home/apps/waveform_dump.csv",
+  "output-result": "/home/apps/waveform_dump_result.json",
+  "expect": {
+    "sampling-frequency-hz": 4000,
+    "voltage-channels": 1,
+    "current-channels": 2,
+    "total-channels": 3,
+    "voltage-rms": 60.0,
+    "voltage-rms-tolerance": 1.0,
+    "total-real-power-watts": 300.0,
+    "real-power-tolerance-watts": 25.0,
+    "power-voltage-multiplier": 2.0
+  }
+}
